@@ -22,7 +22,7 @@ namespace Connverter
             { 
                 if (numberSystem <= 0 || numberSystem >= 5)
                 {
-                    Console.WriteLine("Ошибка! Диапазон от 1 до 4!");
+                    Console.WriteLine("Ошибка! Диапазон от 1 до 4!"); // проверка на диапазон чисел
                 }
             
                 if (numberSystem == 1) // выбор числа 1-значит двоичная сс.
